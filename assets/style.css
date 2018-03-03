@@ -7,37 +7,35 @@
 }
 body {
   background:url("./images/giphybg.jpeg");
-  background-repeat: no-repeat;
-  background-size:cover;
   padding: 0;
   margin: 0;
 }
 .content {
-  color: white;
+  color:var(--dark5);
 }
 .header {
   color: var(--light1);
   background-color: var(--dark5);
+  width: 100%;
+}\	
+
+#frm{
+  width: 100%;
+  background-color: var(--dark5);
+  align-content: center;
+}
+.gifs{
+  background-color: var(--dark5);
   float: left;
 }
-#buttonCat {
-  color: var(--light1);
-display: inline-block;
-  background-color: var(--dark5);
- 
-}
-#adder {
-  color: var(--light2);
+.adds{
+  align-content: center;
+  padding: 25%;
+  margin: 20%;
   background-color: var(--dark4);
-  
+  opacity:0.9;
 }
-#input {
-  color: white;
-  background-color: var(--dark4);
-
-  margin: 2.5em;
-}
-#btn-add {
-  color: var(--dark4);
-  background-color: var(--light1);
+.gif{
+  height: 10em;
+  width: auto;
 }
