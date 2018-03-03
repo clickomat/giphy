@@ -3,10 +3,14 @@
   --dark4: #234567;
   --mid3: #345678;
   --light2: #456789;
-  --light1: #56789f;
+  --light1: #fdfeff;
 }
 body {
-  background-color: var(--light1);
+  background:url("./images/giphybg.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding: 0;
+  margin: 0;
 }
 .content {
   color: white;
@@ -14,22 +18,24 @@ body {
 .header {
   color: var(--light1);
   background-color: var(--dark5);
+  float: left;
 }
 #buttonCat {
   color: var(--light1);
+display: inline-block;
   background-color: var(--dark5);
-  float: left;
+ 
 }
 #adder {
   color: var(--light2);
   background-color: var(--dark4);
-  float: right;
+  
 }
 #input {
   color: white;
   background-color: var(--dark4);
-  height: 50px;
-  margin: 1em;
+
+  margin: 2.5em;
 }
 #btn-add {
   color: var(--dark4);
