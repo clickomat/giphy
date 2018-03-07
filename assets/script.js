@@ -38,6 +38,8 @@ $(document).ready(function() {
 
     $("#input").focus();
     console.log(category);
+
+    loadGif();
   });
 
   //call functions
@@ -94,5 +96,5 @@ $(document).ready(function() {
       $(this).attr("src", src.replace(/\_s.gif/i, ".gif"));
     }
   });
-  
+ 
 });
